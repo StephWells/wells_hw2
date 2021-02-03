@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Link to use the external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+<head>
+  <title>Stephanie's Local Guide to Valle-Reservations</title>
+ 
+</head>
+<body>
+   <!--A link to the Introductory Page (use relative link)-->
+   <p><a href=index.html >Back to Stephanie's Local Guide to Valle </a> </a></p>
+   <!--Headings size 2 -->
+   <h2>Reserve</h2>
+   <!--Heading size 4-->
+   <h4>Reservation Information</h4>
+   
+   <form>
+    <!--Text Input -->
+      <label>Username:</label><Br>
+      <input type="text" id="uname" name="uname"><br>
+    <!--Password input-->
+    <label>Password:</label><Br>
+      <input type="password" id="Password" name="password"><br>
+    
+       <!--Heading size 4-->
+   <h4>Payment to hold Reservation</h4>
+      <!--Radio buttons (at least 3)-->
+    <input type="radio" id="PayPal" name="Paypal" value="Paypal">
+    <label for="Paypal">PayPal</label><br>
+    <input type="radio" id="Credit" name="Credit" value="Credit">
+    <label for="Credit">Credit</label><br>
+    <input type="radio" id="Debit" name="Debit" value="Debit">
+    <label for="Debit">Debit</label><br>
+    
+           <!--Heading size 4-->
+   <h4>Special Occasion</h4>
+    <!--Checkbox (at least 2)-->
+    <form>
+      <input type="checkbox" id="Birthday" name="Birthday" value="Birthday">
+      <label for="Birthday"> Birthday</label><br>
+      <input type="checkbox" id="Graduation" name="Graduation" value="Graduation">
+      <label for="Graduation"> Graduation</label><br>
+      <input type="checkbox" id="Anniversary" name="Anniversary" value="Anniversary">
+      <label for="Anniversary"> Anniversary</label><br>
+    <!--A multiple select box (at least 4 options)-->
+    <p><strong>Select your group's age range </strong></p> <select multiple size="5"> <option value="Youth">16-19 (Youth)</option> <option value="Young Adult">20-25 (Young Adult)</option> <option value="Adult">26-35 (Adult)</option> <option value="Middle Age Adult">35-55</option></select> <option value="Senior Adult">55 Above</option></select>
+
+    <!--Date input (HTML 5 validation)-->
+    <p>Select Reservation Date</p>
+    <input type="date" name="Date" placeholder="select Today's Date" >
+    <!--Submit button-->
+    <input type="submit" value="Submit">
+   </form>
+   
+</body>
+</html>
